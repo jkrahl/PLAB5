@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "FuncionsBlackJack.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Carta cartes[NUM_CARTES];
+    InicialitzarBaralla(cartes);
+	for (int i = 0; i < NUM_CARTES; i++)
+	{
+		MostrarCarta(cartes[i]);
+	}
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar

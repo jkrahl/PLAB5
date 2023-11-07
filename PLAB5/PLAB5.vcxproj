@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FuncionsBlackJack.cpp" />
     <ClCompile Include="PLAB5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FuncionsBlackJack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
