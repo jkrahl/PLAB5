@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FuncionsBlackJack.cpp" />
-    <ClCompile Include="PLAB5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FuncionsBlackJack.h" />
